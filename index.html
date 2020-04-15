@@ -10,20 +10,28 @@
         <link rel="shortcut icon" href="https://avatars1.githubusercontent.com/u/8214900?s=200&v=4" />
         <style>
             body { margin: 0; background-color: #fef7ef }
-            img { display: block; margin: auto }
+            .container {
+                position: relative;
+                display: block;
+                width: fit-content;
+                margin: auto;
+            }
             .apply-now {
                 display: block;
-                position: fixed;
-                bottom: 145px;
-                left: 560px;
-                width: 350px;
-                height: 180px;
+                position: absolute;
+                top: 82.6%;
+                right: 10.8%;
+                bottom: 7.9%;
+                left: 47.4%;
                 opacity: 0;
+                cursor: pointer;
             }
         </style>
     </head>
     <body>
-        <img src="infographic_2020.jpg" alt="info" />
-        <a class="apply-now" href="mailto:hello@estl.sg" />
+        <div class="container">
+            <img src="infographic_2020.jpg" alt="info" />
+            <a class="apply-now" href="mailto:hello@estl.sg" />
+        </div>
     </body>
 </html>
