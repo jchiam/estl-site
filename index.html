@@ -10,28 +10,17 @@
         <link rel="shortcut icon" href="https://avatars1.githubusercontent.com/u/8214900?s=200&v=4" />
         <style>
             body { margin: 0; background-color: #fef7ef }
-            .container {
-                position: relative;
-                display: block;
-                width: fit-content;
-                margin: auto;
-            }
-            .apply-now {
-                display: block;
-                position: absolute;
-                top: 82.6%;
-                right: 10.8%;
-                bottom: 7.9%;
-                left: 47.4%;
-                opacity: 0;
-                cursor: pointer;
+            img {
+              width: 800px;
+              display: block;
+              margin: auto;
             }
         </style>
     </head>
     <body>
-        <div class="container">
-            <img src="infographic_2020.png" alt="info" />
-            <a class="apply-now" href="mailto:hello@estl.sg" />
-        </div>
+      <img src="infographic_2020.png" alt="info" usemap="#imgmap" />
+      <map name="imgmap">
+        <area shape="rect" coords="390,1520,710,1690" href="mailto:hello@estl.sg" alt="Apply Now">
+      </map>
     </body>
 </html>
